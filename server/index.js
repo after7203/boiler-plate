@@ -8,7 +8,7 @@ const { User } = require("./models/User");
 //application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//application/json 
+//application/json hello!! 
 app.use(bodyParser.json());
 app.use(cookieParser());
 
